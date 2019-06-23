@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import './screens/login_screen.dart';
 void main(){
-  runApp(LoginScreen());
+  runApp(LoginApp());
+  debugPaintSizeEnabled=false;
 }
 class LoginApp extends StatelessWidget {
   @override
